@@ -183,3 +183,25 @@ a {
   border-radius: 8px;
   background-color: #fe9b0b;
 }
+
+
+/* slider */
+.testimonial-slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+
+  .slide {
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+  }
+
+  .slide.active {
+    display: block;
+  }

@@ -123,14 +123,41 @@
        <a href="https://secure.wayforpay.com/button/bfe6f6e89f926" class="button-link" target="_blank" rel="noopener noreferrer">ПОЧАТИ РОЗСЛІДУВАННЯ</a>
       </div>
         <div class="img-container">
-        <img
+
+<div class="testimonial-slider">
+
+<img class="slide active" src="/img/slide_1.jpg" width="100%" alt="slide">
+<img class="slide" src="/img/slide_2.jpg" width="100%" alt="slide">
+<img class="slide" src="/img/slide_3.jpg" width="100%" alt="slide">
+<img class="slide" src="/img/slide_4.jpg" width="100%" alt="slide">
+<img class="slide" src="/img/slide_5.jpg" width="100%" alt="slide">
+
+
+
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+function showNextSlide() {
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+}
+
+setInterval(showNextSlide, 3000);
+</script>
+
+
+        <!-- <img
           class="img-main"
           src="/img/IMG_9.jpg"
           width="100%"
           alt="img-landing"
         />
-       <a  class="button-link" target="_blank" rel="noopener noreferrer">ПОЧАТИ РОЗСЛІДУВАННЯ</a>
-      </div>
+       <a  class="button-link" target="_blank" rel="noopener noreferrer">ПОЧАТИ РОЗСЛІДУВАННЯ</a> -->
+      <!-- </div> -->
       <div class="img-container">
         <img
           class="img-main"
