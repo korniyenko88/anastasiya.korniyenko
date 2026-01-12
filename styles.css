@@ -197,9 +197,9 @@ a {
 
   .slide {
     display: none;
-    padding: 20px;
+    
     box-sizing: border-box;
-    background-color: #f0f0f0;
+   
   }
 
   .slide.active {
