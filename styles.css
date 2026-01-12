@@ -164,7 +164,7 @@ a {
 }
 
 .button-link {
-   animation: scale-up-down 1s infinite;
+  animation: scale-up-down 1s infinite;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,24 +184,20 @@ a {
   background-color: #fe9b0b;
 }
 
-
 /* slider */
 .testimonial-slider {
-    position: relative;
-    width: 100%;
-    
-    margin: 0 auto;
-    overflow: hidden;
-    border: 1px solid #ccc;
-  }
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
-  .slide {
-    display: none;
-    
-    box-sizing: border-box;
-   
-  }
+.slide {
+  display: none;
 
-  .slide.active {
-    display: block;
-  }
+  box-sizing: border-box;
+}
+
+.slide.active {
+  display: block;
+}
