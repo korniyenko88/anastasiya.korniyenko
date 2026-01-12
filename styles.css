@@ -164,6 +164,7 @@ a {
 }
 
 .button-link {
+   animation: scale-up-down 1s infinite;
   display: flex;
   align-items: center;
   justify-content: center;
